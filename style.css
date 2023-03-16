@@ -1,0 +1,106 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+
+  background-image: url("image/3.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+}
+*Register-now{
+
+  width: 330px;
+  height: 500px;
+  padding: 30px;
+  border: 5px solid #34495e;
+  border-radius: 10px;
+  outline: none;
+  background: rgba(520, 73, 94, 0, 1);
+
+
+}
+
+form h1{
+  color: #ecf0f1;
+}
+.input-style{
+  margin-top: 15px;
+}
+.input-style input{
+  width: 90%;
+  background: transparent;
+  padding: 3px;
+  border: 2px solid #16a085;
+  border-radius: 5px;
+  color: #ecf0f1;
+  outline: none;
+  height: 15px;
+  margin-bottom: 10px;
+}
+.input-style label{
+  color: #ecf0f1;
+  margin-bottom: 4px;
+  display: block;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 1px;
+}
+.gender p{
+  color: #ecf0f1; 
+  margin-top: 4px;
+}
+.option{
+  margin-top: 6px;
+}
+.option label{
+  color: #ecf0f1;
+  cursor: pointer;
+}
+
+.btn-container{
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn{
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat;";
+  cursor: pointer;
+  margin: 10px;
+}
+.btn,.btn2{
+  color: #3498db;
+
+}
+.btn1:background{
+  color: #3498db;
+}
+.register-page input{
+  width: 90%;
+  margin-top: 20px;
+  padding: 10px;
+  background: linear-gradient(130deg,#1abc9c,#16a085);
+  outline: none;
+  border-radius: 5px;
+  color: #ecf0f1;
+  cursor: pointer;
+  border: none;
+}
+.register-page input:hover{
+  background: linear-gradient(-130deg,#1abc9c,#16a085);
+
+}
+
+
+
